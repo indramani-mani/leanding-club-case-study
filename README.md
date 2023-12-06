@@ -1,30 +1,31 @@
 # Lending Club Case Study
 
-## Goals of data analysis:  
-
-``` 
-Lending loans to ‘risky’ applicants is the largest source of financial loss
-(called credit loss). The credit loss is the amount of money lost by the lender 
-when the borrower refusesto pay or runs away with the money owed.  
-
-The main objective is to be able to identify these risky loan applicants, 
-then such loans can be reduced thereby cutting down the amount of credit loss. 
-Identification of such applicants using EDA is the aim of this case study.   
-
-Perform an analysis to understand the driving factors (or driver variables)
-behind loan default, i.e.the variables which are strong indicators of default.  
-The company can utilise this knowledge for its portfolio and risk assessment. 
-
+## Problem Statement
+```
+You work for a consumer finance company which specializes in lending various types of loans to urban customers. When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
+i) If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
+ii) If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company
+```
+## Aim
+```
+-> To identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc..
+-> To minimize the risk of loss
 ```
 
-#### Step 1: Data Cleaning 
-#### Step 2: Univariate Analysis
-#### Step 3: Segemented Univariate Analysis
-#### Step 4: Bivaraiate/Multivariate Analysis
-#### Step 5: Conclusion
+## Steps involved
+```
+1) Data Sourcing
+2) Data Cleaning
+3) Univariate Analysis
+4) Bivariate Analysis
+5) Multivariate Analysis
+```
 
+#### Dataset-'loan.csv' (Info from 2007 to 2011)
+#### Technologies used- Jupyter, NumPy- 1.26.1, Pandas- 2.1.2, MatplotLib- 3.8.0, Seaborn- 0.13.0
 
-
-Contributers:
-Indramani Pandey
-Sanjit M
+## Contributers:
+```
+Indramani Pandey (@indramani-mani)
+Sanjit M M (@sanjitmm)
+```
